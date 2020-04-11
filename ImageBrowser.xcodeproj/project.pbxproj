@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B411DB5A1E5C45B00067BD41 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = B4DE9D8308A4989F005E738E /* MainMenu.nib */; };
+		B411DB5B1E5C45B80067BD41 /* ImageBrowser.nib in Resources */ = {isa = PBXBuildFile; fileRef = B4980F7606E818FD003CC6F6 /* ImageBrowser.nib */; };
+		B417A5BD1907BB1B0091607A /* NumKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B417A5BC1907BB1B0091607A /* NumKit.framework */; };
+		B430E5B61782AF85002CE34F /* RecKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B430E5B51782AF85002CE34F /* RecKit.framework */; };
+		B46A764C1050E78200338F42 /* KOImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28092904013479690A27B644 /* KOImageView.h */; };
+		B46A764D1050E78200338F42 /* KOImageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 28092905013479690A27B644 /* KOImageControl.h */; };
+		B46A764E1050E78200338F42 /* KOScaleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28092906013479690A27B644 /* KOScaleView.h */; };
+		B46A764F1050E78200338F42 /* KOSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 28092907013479690A27B644 /* KOSlider.h */; };
+		B46A76501050E78200338F42 /* image.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0E075E0135B34B0A27B644 /* image.h */; };
+		B46A76511050E78200338F42 /* KOIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0E07680135C2B10A27B644 /* KOIndicator.h */; };
+		B46A76521050E78200338F42 /* KOProfControl.h in Headers */ = {isa = PBXBuildFile; fileRef = B41ED17E06E6EE3100B13E0F /* KOProfControl.h */; };
+		B46A76531050E78200338F42 /* KOProfView.h in Headers */ = {isa = PBXBuildFile; fileRef = B41ED17F06E6EE3100B13E0F /* KOProfView.h */; };
+		B46A76541050E78200338F42 /* KOWindowControl.h in Headers */ = {isa = PBXBuildFile; fileRef = B4744EBC08A722970021114B /* KOWindowControl.h */; };
+		B46A76571050E78200338F42 /* ImageBrowser.icns in Resources */ = {isa = PBXBuildFile; fileRef = 45641940002FD477C009C802 /* ImageBrowser.icns */; };
+		B46A765B1050E78200338F42 /* ImageBrowser_main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3011CCBD002BEE97C009C802 /* ImageBrowser_main.m */; settings = {ATTRIBUTES = (); }; };
+		B46A765C1050E78200338F42 /* KOImageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2809290C013479790A27B644 /* KOImageControl.m */; };
+		B46A765D1050E78200338F42 /* KOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2809290D013479790A27B644 /* KOImageView.m */; };
+		B46A765E1050E78200338F42 /* KOScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2809290E013479790A27B644 /* KOScaleView.m */; };
+		B46A765F1050E78200338F42 /* KOSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2809290F013479790A27B644 /* KOSlider.m */; };
+		B46A76601050E78200338F42 /* KOIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E07660135C2A60A27B644 /* KOIndicator.m */; };
+		B46A76611050E78200338F42 /* KOProfControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B41ED17A06E6EE2500B13E0F /* KOProfControl.m */; };
+		B46A76621050E78200338F42 /* KOProfView.m in Sources */ = {isa = PBXBuildFile; fileRef = B41ED17B06E6EE2500B13E0F /* KOProfView.m */; };
+		B46A76631050E78200338F42 /* KOWindowControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B4744EBD08A722970021114B /* KOWindowControl.m */; };
+		B46A76651050E78200338F42 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3011CCCB002BEE97C009C802 /* AppKit.framework */; };
+		B4911CCD1A39899E00391923 /* NumKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = B417A5BC1907BB1B0091607A /* NumKit.framework */; };
+		B4911CCE1A3989A300391923 /* RecKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = B430E5B51782AF85002CE34F /* RecKit.framework */; };
+		B4C176B51BCD071E00E51C8F /* libimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B437795E1146142400CED2DE /* libimage.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28092904013479690A27B644 /* KOImageView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = KOImageView.h; path = /Users/oshio/Projects6/KOImageView/KOImageView.h; sourceTree = "<absolute>"; };
+		28092905013479690A27B644 /* KOImageControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = KOImageControl.h; path = /Users/oshio/Projects6/KOImageView/KOImageControl.h; sourceTree = "<absolute>"; };
+		28092906013479690A27B644 /* KOScaleView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = KOScaleView.h; path = /Users/oshio/Projects6/KOImageView/KOScaleView.h; sourceTree = "<absolute>"; };
+		28092907013479690A27B644 /* KOSlider.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = KOSlider.h; path = /Users/oshio/Projects6/KOImageView/KOSlider.h; sourceTree = "<absolute>"; };
+		2809290C013479790A27B644 /* KOImageControl.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = KOImageControl.m; path = /Users/oshio/Projects6/KOImageView/KOImageControl.m; sourceTree = "<absolute>"; };
+		2809290D013479790A27B644 /* KOImageView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = KOImageView.m; path = /Users/oshio/Projects6/KOImageView/KOImageView.m; sourceTree = "<absolute>"; };
+		2809290E013479790A27B644 /* KOScaleView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = KOScaleView.m; path = /Users/oshio/Projects6/KOImageView/KOScaleView.m; sourceTree = "<absolute>"; };
+		2809290F013479790A27B644 /* KOSlider.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = KOSlider.m; path = /Users/oshio/Projects6/KOImageView/KOSlider.m; sourceTree = "<absolute>"; };
+		2C0E075E0135B34B0A27B644 /* image.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = image.h; path = /Users/oshio/Projects/image/image.h; sourceTree = "<absolute>"; };
+		2C0E07660135C2A60A27B644 /* KOIndicator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = KOIndicator.m; path = /Users/oshio/Projects6/KOImageView/KOIndicator.m; sourceTree = "<absolute>"; };
+		2C0E07680135C2B10A27B644 /* KOIndicator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = KOIndicator.h; path = /Users/oshio/Projects6/KOImageView/KOIndicator.h; sourceTree = "<absolute>"; };
+		3011CCBD002BEE97C009C802 /* ImageBrowser_main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ImageBrowser_main.m; sourceTree = "<group>"; };
+		3011CCC2002BEE97C009C802 /* icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = icon.tiff; sourceTree = "<group>"; };
+		3011CCCB002BEE97C009C802 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		3011CCCC002BEE97C009C802 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		45641940002FD477C009C802 /* ImageBrowser.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ImageBrowser.icns; sourceTree = "<group>"; };
+		B417A5BC1907BB1B0091607A /* NumKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NumKit.framework; path = ../NumKit/build/NumKit.framework; sourceTree = "<group>"; };
+		B41ED17A06E6EE2500B13E0F /* KOProfControl.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = KOProfControl.m; path = /Users/oshio/Projects6/KOImageView/KOProfControl.m; sourceTree = "<absolute>"; };
+		B41ED17B06E6EE2500B13E0F /* KOProfView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = KOProfView.m; path = /Users/oshio/Projects6/KOImageView/KOProfView.m; sourceTree = "<absolute>"; };
+		B41ED17E06E6EE3100B13E0F /* KOProfControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = KOProfControl.h; path = /Users/oshio/Projects6/KOImageView/KOProfControl.h; sourceTree = "<absolute>"; };
+		B41ED17F06E6EE3100B13E0F /* KOProfView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = KOProfView.h; path = /Users/oshio/Projects6/KOImageView/KOProfView.h; sourceTree = "<absolute>"; };
+		B430E5B51782AF85002CE34F /* RecKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RecKit.framework; path = ../RecKit/RecKit/build/RecKit.framework; sourceTree = "<group>"; };
+		B437795E1146142400CED2DE /* libimage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimage.a; path = ../../lib/libimage.a; sourceTree = SOURCE_ROOT; };
+		B46A766D1050E78200338F42 /* Info-ImageBrowser.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-ImageBrowser.plist"; sourceTree = "<group>"; };
+		B4744EBC08A722970021114B /* KOWindowControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = KOWindowControl.h; path = /Users/oshio/Projects6/KOImageView/KOWindowControl.h; sourceTree = "<absolute>"; };
+		B4744EBD08A722970021114B /* KOWindowControl.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = KOWindowControl.m; path = /Users/oshio/Projects6/KOImageView/KOWindowControl.m; sourceTree = "<absolute>"; };
+		B4980F7706E818FD003CC6F6 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ImageBrowser.nib; sourceTree = "<group>"; };
+		B4BBAD5D11043FBB00B8152F /* ImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4DE9D8408A4989F005E738E /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B46A76641050E78200338F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C176B51BCD071E00E51C8F /* libimage.a in Frameworks */,
+				B417A5BD1907BB1B0091607A /* NumKit.framework in Frameworks */,
+				B430E5B61782AF85002CE34F /* RecKit.framework in Frameworks */,
+				B46A76651050E78200338F42 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3011CCAF002BEE97C009C802 /* ImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B417A5BC1907BB1B0091607A /* NumKit.framework */,
+				B430E5B51782AF85002CE34F /* RecKit.framework */,
+				3011CCB0002BEE97C009C802 /* Classes */,
+				3011CCBC002BEE97C009C802 /* Other Sources */,
+				3011CCBE002BEE97C009C802 /* Interfaces */,
+				3011CCC1002BEE97C009C802 /* Images */,
+				3011CCC3002BEE97C009C802 /* Supporting Files */,
+				3011CCCA002BEE97C009C802 /* External Frameworks and Libraries */,
+				B46A766D1050E78200338F42 /* Info-ImageBrowser.plist */,
+				B4BBAD5D11043FBB00B8152F /* ImageBrowser.app */,
+			);
+			name = ImageBrowser;
+			sourceTree = "<group>";
+		};
+		3011CCB0002BEE97C009C802 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B4744EBC08A722970021114B /* KOWindowControl.h */,
+				B4744EBD08A722970021114B /* KOWindowControl.m */,
+				B41ED17E06E6EE3100B13E0F /* KOProfControl.h */,
+				B41ED17A06E6EE2500B13E0F /* KOProfControl.m */,
+				B41ED17F06E6EE3100B13E0F /* KOProfView.h */,
+				B41ED17B06E6EE2500B13E0F /* KOProfView.m */,
+				28092905013479690A27B644 /* KOImageControl.h */,
+				2809290C013479790A27B644 /* KOImageControl.m */,
+				28092904013479690A27B644 /* KOImageView.h */,
+				2809290D013479790A27B644 /* KOImageView.m */,
+				28092906013479690A27B644 /* KOScaleView.h */,
+				2809290E013479790A27B644 /* KOScaleView.m */,
+				28092907013479690A27B644 /* KOSlider.h */,
+				2809290F013479790A27B644 /* KOSlider.m */,
+				2C0E07680135C2B10A27B644 /* KOIndicator.h */,
+				2C0E07660135C2A60A27B644 /* KOIndicator.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3011CCBC002BEE97C009C802 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3011CCBD002BEE97C009C802 /* ImageBrowser_main.m */,
+				2C0E075E0135B34B0A27B644 /* image.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		3011CCBE002BEE97C009C802 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				B4DE9D8308A4989F005E738E /* MainMenu.nib */,
+				B4980F7606E818FD003CC6F6 /* ImageBrowser.nib */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		3011CCC1002BEE97C009C802 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3011CCC2002BEE97C009C802 /* icon.tiff */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3011CCC3002BEE97C009C802 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45641940002FD477C009C802 /* ImageBrowser.icns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3011CCCA002BEE97C009C802 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				B437795E1146142400CED2DE /* libimage.a */,
+				3011CCCB002BEE97C009C802 /* AppKit.framework */,
+				3011CCCC002BEE97C009C802 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B46A764B1050E78200338F42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46A764C1050E78200338F42 /* KOImageView.h in Headers */,
+				B46A764D1050E78200338F42 /* KOImageControl.h in Headers */,
+				B46A764E1050E78200338F42 /* KOScaleView.h in Headers */,
+				B46A764F1050E78200338F42 /* KOSlider.h in Headers */,
+				B46A76501050E78200338F42 /* image.h in Headers */,
+				B46A76511050E78200338F42 /* KOIndicator.h in Headers */,
+				B46A76521050E78200338F42 /* KOProfControl.h in Headers */,
+				B46A76531050E78200338F42 /* KOProfView.h in Headers */,
+				B46A76541050E78200338F42 /* KOWindowControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B46A764A1050E78200338F42 /* ImageBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46A76691050E78200338F42 /* Build configuration list for PBXNativeTarget "ImageBrowser" */;
+			buildPhases = (
+				B46A764B1050E78200338F42 /* Headers */,
+				B46A76551050E78200338F42 /* Resources */,
+				B46A765A1050E78200338F42 /* Sources */,
+				B46A76641050E78200338F42 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageBrowser;
+			productName = ImageBrowser;
+			productReference = B4BBAD5D11043FBB00B8152F /* ImageBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3011CCAE002BEE96C009C802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = B4FD82F50909EB050056457C /* Build configuration list for PBXProject "ImageBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 3011CCAF002BEE97C009C802 /* ImageBrowser */;
+			productRefGroup = 3011CCAF002BEE97C009C802 /* ImageBrowser */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B46A764A1050E78200338F42 /* ImageBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B46A76551050E78200338F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B411DB5B1E5C45B80067BD41 /* ImageBrowser.nib in Resources */,
+				B411DB5A1E5C45B00067BD41 /* MainMenu.nib in Resources */,
+				B4911CCE1A3989A300391923 /* RecKit.framework in Resources */,
+				B4911CCD1A39899E00391923 /* NumKit.framework in Resources */,
+				B46A76571050E78200338F42 /* ImageBrowser.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B46A765A1050E78200338F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46A765B1050E78200338F42 /* ImageBrowser_main.m in Sources */,
+				B46A765C1050E78200338F42 /* KOImageControl.m in Sources */,
+				B46A765D1050E78200338F42 /* KOImageView.m in Sources */,
+				B46A765E1050E78200338F42 /* KOScaleView.m in Sources */,
+				B46A765F1050E78200338F42 /* KOSlider.m in Sources */,
+				B46A76601050E78200338F42 /* KOIndicator.m in Sources */,
+				B46A76611050E78200338F42 /* KOProfControl.m in Sources */,
+				B46A76621050E78200338F42 /* KOProfView.m in Sources */,
+				B46A76631050E78200338F42 /* KOWindowControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4980F7606E818FD003CC6F6 /* ImageBrowser.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4980F7706E818FD003CC6F6 /* English */,
+			);
+			name = ImageBrowser.nib;
+			sourceTree = "<group>";
+		};
+		B4DE9D8308A4989F005E738E /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4DE9D8408A4989F005E738E /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B46A766A1050E78200338F42 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../RecKit/RecKit/build",
+					"$(SRCROOT)/../NumKit/build",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Info-ImageBrowser.plist";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/oshio/lib,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(SRCROOT)/../RecKit/RecKit/build\"",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../RecKit/RecKit\"";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ImageBrowser;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		B46A766B1050E78200338F42 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../RecKit/RecKit/build",
+					"$(SRCROOT)/../NumKit/build",
+				);
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Info-ImageBrowser.plist";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/oshio/lib,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(SRCROOT)/../RecKit/RecKit/build\"",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../RecKit/RecKit\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ImageBrowser;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		B46A766C1050E78200338F42 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../RecKit/RecKit/build",
+					"$(SRCROOT)/../NumKit/build",
+				);
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Info-ImageBrowser.plist";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/oshio/lib,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(SRCROOT)/../RecKit/RecKit/build\"",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../RecKit/RecKit\"";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ImageBrowser;
+				SDKROOT = macosx;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		B4FD82F60909EB050056457C /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Resources/";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Development;
+		};
+		B4FD82F70909EB050056457C /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Resources/";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Deployment;
+		};
+		B4FD82F80909EB050056457C /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Resources/";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B46A76691050E78200338F42 /* Build configuration list for PBXNativeTarget "ImageBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46A766A1050E78200338F42 /* Development */,
+				B46A766B1050E78200338F42 /* Deployment */,
+				B46A766C1050E78200338F42 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		B4FD82F50909EB050056457C /* Build configuration list for PBXProject "ImageBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FD82F60909EB050056457C /* Development */,
+				B4FD82F70909EB050056457C /* Deployment */,
+				B4FD82F80909EB050056457C /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3011CCAE002BEE96C009C802 /* Project object */;
+}
