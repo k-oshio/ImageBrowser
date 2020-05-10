@@ -356,11 +356,11 @@
                             <menu key="menu" title="OtherViews" id="548">
                                 <items>
                                     <menuItem title="Fill" state="on" id="550"/>
-                                    <menuItem title="0.8" tag="1" id="549"/>
-                                    <menuItem title="1.0" tag="2" id="591"/>
-                                    <menuItem title="1.2" tag="3" id="552"/>
-                                    <menuItem title="1.4" tag="4" id="553"/>
-                                    <menuItem title="1.7" tag="5" id="551"/>
+                                    <menuItem title="0.125" tag="1" id="549"/>
+                                    <menuItem title="0.25" tag="2" id="591"/>
+                                    <menuItem title="0.5" tag="3" id="552"/>
+                                    <menuItem title="1.0" tag="4" id="553"/>
+                                    <menuItem title="1.5" tag="5" id="551"/>
                                     <menuItem title="2.0" tag="6" id="592"/>
                                     <menuItem title="3.0" tag="7" id="593"/>
                                     <menuItem title="4.0" tag="8" id="554"/>
